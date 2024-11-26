@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: #ffffff;
+    background-color: #1c1d23;
+}
+
+.header {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.in-header {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+
+    padding: 1.8rem 0 6.6rem 0;
+}
+
+
+.logo {
+    font-size: 2.4rem;
+}
+
+.logo-text {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.section-hero {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    column-gap: 9.6rem;
+    row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+span.small-text {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #e32827;
+    padding-bottom: 1.8rem;
+}
+
+.hero-text {
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    line-height: 1.3;
+    padding-bottom: 1.5rem;
+}
+
+.hero-description {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin: 0.2rem 0 3.2rem 0;
+}
+
+/* span.btn-sys {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+} */
+
+.btn-1:link,
+.btn-1:visited {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #e32827;
+    color: #ffffff;
+    padding: 1.4rem 1.0rem;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    /* margin: 3.2rem 0 0.6rem 0; */
+}
+
+.section-features {
+    padding: 8rem 0;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+
+    /* padding: 1.8rem 0 1.6rem 0; */
+}
+
+p.icon-1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+span.id {
+    font-size: 1.0rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+    display: block;
+
+}
+
+.in-icon {
+    font-size: 2rem;
+}
+
+.section-facility {
+    /* padding: 8rem 0; */
+}
+
+.subheading {
+    display: block;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-bottom: 0.7rem;
+}
+
+.heading-secondary {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 0.7rem;
+}
+
+.facility-description {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.section-about {
+    padding: 8rem 0;
+}
+
+.text-tertiary {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.inner--container-2 {
+    text-align: center;
+}
+
+.section-cta {
+    padding: 0.6rem 0 8rem 0;
+}
+
+.heading-tertiary {
+    text-align: center;
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    line-height: 1.3;
+    letter-spacing: 0.9px;
+}
+
+.cta-text {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin-bottom: 2rem;
+}
+
+.stuff {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #101112;
+    padding: 3rem 0;
+}
+
+.footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.socials-logo {
+    font-size: 2rem;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    text-align: center;
+    color: grey;
+    padding-top: 1rem;
+}
